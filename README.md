@@ -1,20 +1,10 @@
-# Chatbot UI
+# Chatgpt Clone
 
-## News
-
-Chatbot UI 2.0 is out as an updated, hosted product!
-
-Check out [Takeoff Chat](https://www.takeoffchat.com/).
-
-Open source version coming soon!
 
 ## About
 
 Chatbot UI is an open source chat UI for AI models.
 
-See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
-
-![Chatbot UI](./public/screenshots/screenshot-0402023.jpg)
 
 ## Updates
 
@@ -47,7 +37,7 @@ docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
 Pull from ghcr:
 
 ```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-ui:main
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/pissaypratheesh/chatgpt-clone:main
 ```
 
 ## Running Locally
@@ -55,7 +45,7 @@ docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-
 **1. Clone Repo**
 
 ```bash
-git clone https://github.com/mckaywrigley/chatbot-ui.git
+git clone https://github.com/pissaypratheesh/chatgpt-clone.git
 ```
 
 **2. Install Dependencies**
@@ -107,9 +97,3 @@ When deploying the application, the following environment variables can be set:
 If you do not provide an OpenAI API key with `OPENAI_API_KEY`, users will have to provide their own key.
 
 If you don't have an OpenAI API key, you can get one [here](https://platform.openai.com/account/api-keys).
-
-## Contact
-
-If you have any questions, feel free to reach out to Mckay on [Twitter](https://twitter.com/mckaywrigley).
-
-[GCSE]: https://developers.google.com/custom-search/v1/overview
